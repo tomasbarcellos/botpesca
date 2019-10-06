@@ -1,7 +1,3 @@
-slots:
-
-entities:
-
 intents:
 - validade_geografica_licenca
 - licenca_crianca
@@ -16,31 +12,46 @@ intents:
 
 templates:
   utter_consulta_licenca:
-    - text: "Acesse o link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador , bastando informar apenas o CPF, terá acesso a sua licença."
+    - text: |
+        Acesse o link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador , bastando informar apenas o CPF, terá acesso a sua licença.
+        
   utter_embarcada_ou_desembarcada:
-    - text: "A licença de pesca na modalidade embarcada contempla a modalidade desembarcada, mas caso tenha apenas a licença na categoria desembarcada, esta não contempla a pesca embarcada, sendo necessário a emissão da carteirinha na modalidade embarcada."
+    - text: |
+        A licença de pesca na modalidade embarcada contempla a modalidade desembarcada, mas caso tenha apenas a licença na categoria desembarcada, esta não contempla a pesca embarcada, sendo necessário a emissão da carteirinha na modalidade embarcada.
+        
   utter_pagamento_duplicado:
-    - text: "Informamos que não é possível ser realizado o reembolso, pois, os pagamentos são controlados pelo Tesouro Nacional. O que pode ser feito é verificarmos a possibilidade para liberação de uma outra carteira de pesca definitiva, utilizando um dos comprovantes de pagamento. Caso tenha algum conhecido que também deseja emitir a licença e ainda não efetuou o pagamento entre em contato pelo e-mail: pescadoramador.sap@agricultura.gov.br."
+    - text: |
+        Informamos que não é possível ser realizado o reembolso, pois, os pagamentos são controlados pelo Tesouro Nacional. O que pode ser feito é verificarmos a possibilidade para liberação de uma outra carteira de pesca definitiva, utilizando um dos comprovantes de pagamento. Caso tenha algum conhecido que também deseja emitir a licença e ainda não efetuou o pagamento entre em contato pelo e-mail: pescadoramador.sap@agricultura.gov.br.
+        
   utter_gru:
-    - text: "As regras e normativos são do Governo Federal, no site do Tesouro Nacional é possível verificar as exigências em relação ao pagamento em agências do Banco do Brasil. http://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp"
+    - text: |
+        As regras e normativos são do Governo Federal, no site do Tesouro Nacional é possível verificar as exigências em relação ao pagamento em agências do Banco do Brasil. http://consulta.tesouro.fazenda.gov.br/gru_novosite/gru_simples.asp
+        
   utter_licenca_estrangeiro:
-    - text: "Para o estrangeiro não residente no Brasil e sem CPF, o mesmo deverá requisitar o seu CPF nos postos da Receita Federal, ou pelo site https://servicos.receita.fazenda.gov.br/Servicos/CPF/InscricaoCpfEstrangeiro/default.asp .       O CPF é um dos itens obrigatórios para que se possa realizar o recolhimento da GRU para obter a licença de pesca amadora. Ao preencher o formulário o estrangeiro deverá informa no seu cadastro o endereço do hotel, pousada ou local onde o mesmo for ficar no Brasil, informamos também que o cadastro deverá ser realizado no Site do Ministério da Agricultura, Pecuária e Abastecimento - MAPA, conforme link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador ."
+    - text: |
+        Para o estrangeiro não residente no Brasil e sem CPF, o mesmo deverá requisitar o seu CPF nos postos da Receita Federal, ou pelo site https://servicos.receita.fazenda.gov.br/Servicos/CPF/InscricaoCpfEstrangeiro/default.asp .       O CPF é um dos itens obrigatórios para que se possa realizar o recolhimento da GRU para obter a licença de pesca amadora. Ao preencher o formulário o estrangeiro deverá informa no seu cadastro o endereço do hotel, pousada ou local onde o mesmo for ficar no Brasil, informamos também que o cadastro deverá ser realizado no Site do Ministério da Agricultura, Pecuária e Abastecimento - MAPA, conforme link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador .
+        
   utter_licenca_provisoria:
-    - text: "Caso o usuário tenha realizado o pagamento da GRU e até o presente momento e não obteve sua licença de pesca amadora definitiva, orientamos que aguarde a liberação da carteirinha, pois, a liberação está sendo realizada automaticamente após 30 dias contados da data em que foi realizado o pagamento. Lembrando que a licença provisória possui validade de 30 dias mediante apresentação de um documento de identificação com foto e o comprovante de pagamento. Caso a licença definitiva não seja liberada após os 30 dias a contar da data do pagamento, solicitamos que nos contate pelo e-mail: pescadoramador.sap@agricultura.gov.br  Entretanto, caso tenha realizado cadastro e efetuado o pagamento no site do Ministério do Desenvolvimento, Indústria e Comércio Exterior – MDIC solicitamos que o mesmo nos encaminhe uma cópia do comprovante de pagamento da GRU que conste os seus dados como nome e/ou CPF e a data do pagamento para o e-mail mencionado acima."
+    - text: |
+        Caso o usuário tenha realizado o pagamento da GRU e até o presente momento e não obteve sua licença de pesca amadora definitiva, orientamos que aguarde a liberação da carteirinha, pois, a liberação está sendo realizada automaticamente após 30 dias contados da data em que foi realizado o pagamento. Lembrando que a licença provisória possui validade de 30 dias mediante apresentação de um documento de identificação com foto e o comprovante de pagamento. Caso a licença definitiva não seja liberada após os 30 dias a contar da data do pagamento, solicitamos que nos contate pelo e-mail: pescadoramador.sap@agricultura.gov.br  Entretanto, caso tenha realizado cadastro e efetuado o pagamento no site do Ministério do Desenvolvimento, Indústria e Comércio Exterior – MDIC solicitamos que o mesmo nos encaminhe uma cópia do comprovante de pagamento da GRU que conste os seus dados como nome e/ou CPF e a data do pagamento para o e-mail mencionado acima.
+        
   utter_protocolo:
-    - text: "Caso tenha realizado o cadastro no site do Ministério do Desenvolvimento, Indústria e Comércio Exterior – MDIC e efetuado o pagamento da GRU emitida pelo antigo sistema, orientamos que seja feito um novo cadastro em nosso sistema.  Acesse o link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador e realize um novo cadastro. Não é preciso imprimir a GRU e efetuar o pagamento, haja vista que a sua já está paga.  Assim que for feito um novo cadastro, encaminhe uma cópia do comprovante de pagamento da GRU que conste os seus dados como nome e/ou CPF e a data do pagamento para o e-mail pescadoramador.sap@agricultura.gov.br para que possamos solicitar junto a equipe técnica a liberação da sua licença definitiva."
+    - text: |
+        Caso tenha realizado o cadastro no site do Ministério do Desenvolvimento, Indústria e Comércio Exterior – MDIC e efetuado o pagamento da GRU emitida pelo antigo sistema, orientamos que seja feito um novo cadastro em nosso sistema.  Acesse o link: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador e realize um novo cadastro. Não é preciso imprimir a GRU e efetuar o pagamento, haja vista que a sua já está paga.  Assim que for feito um novo cadastro, encaminhe uma cópia do comprovante de pagamento da GRU que conste os seus dados como nome e/ou CPF e a data do pagamento para o e-mail pescadoramador.sap@agricultura.gov.br para que possamos solicitar junto a equipe técnica a liberação da sua licença definitiva.
+        
   utter_carteirinha:
-    - text: "Para obter/renovar a licença de pesca amadora, emitida por esta Secretaria de Aquicultura e Pesca, com validade em todo território nacional, siga as instruções abaixo: 1º Utilizando o navegador Google Chrome, acesse o endereço: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador ; 2º Clique no link: "Aquicultura e pesca lado esquerdo da tela" , final da página link Registro Pescador realize o cadastro com suas informações pessoais conforme solicitado; 3º  Preencha o formulário e clique em ENVIAR FORMULÁRIO; 4º Após realizar o cadastro o sistema gerará um número de protocolo, um link para impressão da licença provisória válida por trinta dias e outro link para impressão do boleto (GRU) no valor de R$ 60,00 modalidade embarcada e R$ 20,00 modalidade desembarcada; 5º Realize o recolhimento (pagamento) do valor na categoria ora escolhida, lembrando que a carteirinha provisória possui validade apenas mediante apresentação de um documento de identificação com foto e o comprovante de pagamento; 6º A carteirinha definitiva com validade de um ano será liberada automaticamente após 30 dias contados da data em que foi realizado o pagamento."
+    - text: |
+        Para obter/renovar a licença de pesca amadora, emitida por esta Secretaria de Aquicultura e Pesca, com validade em todo território nacional, siga as instruções abaixo: 1º Utilizando o navegador Google Chrome, acesse o endereço: http://www.agricultura.gov.br/assuntos/aquicultura-e-pesca/formulario-de-cadastro-de-pescador-amador ; 2º Clique no link: "Aquicultura e pesca lado esquerdo da tela" , final da página link Registro Pescador realize o cadastro com suas informações pessoais conforme solicitado; 3º  Preencha o formulário e clique em ENVIAR FORMULÁRIO; 4º Após realizar o cadastro o sistema gerará um número de protocolo, um link para impressão da licença provisória válida por trinta dias e outro link para impressão do boleto (GRU) no valor de R$ 60,00 modalidade embarcada e R$ 20,00 modalidade desembarcada; 5º Realize o recolhimento (pagamento) do valor na categoria ora escolhida, lembrando que a carteirinha provisória possui validade apenas mediante apresentação de um documento de identificação com foto e o comprovante de pagamento; 6º A carteirinha definitiva com validade de um ano será liberada automaticamente após 30 dias contados da data em que foi realizado o pagamento.
 
 actions:
-- utter_validade_geografica_licenca
-- utter_licenca_crianca
-- utter_consulta_licenca
-- utter_embarcada_ou_desembarcada
-- utter_pagamento_duplicado
-- utter_gru
-- utter_licenca_estrangeiro
-- utter_licenca_provisoria
-- utter_protocolo
-- utter_carteirinha
+  - utter_validade_geografica_licenca
+  - utter_licenca_crianca
+  - utter_consulta_licenca
+  - utter_embarcada_ou_desembarcada
+  - utter_pagamento_duplicado
+  - utter_gru
+  - utter_licenca_estrangeiro
+  - utter_licenca_provisoria
+  - utter_protocolo
+  - utter_carteirinha
 
