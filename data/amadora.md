@@ -37,7 +37,7 @@
  - Por que o pagamento da GRU só pode ser efetuado no Banco do Brasil –BB?
  - Por que o recolhimento da GRU só pode ser realizado no Banco do Brasil –BB?
  - Por que o pagamento da GRU só pode ser realizado no Banco do Brasil –BB?
- - 
+
 ## intent:pagamento_duplicado
  - Realizei o pagamento da GRU duas vezes, como proceder?
  - Efetuei o pagamento da GRU duas vezes, como proceder?
